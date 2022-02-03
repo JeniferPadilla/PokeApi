@@ -1,0 +1,49 @@
+/* siempre en todas las paginas se va empezar en 0 y el * es para que todas sean asi*/
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    body{
+        background-color: #d5dfe0;
+    }
+    
+    .header{
+        width: 100%;  /* es el ancho de lo que tenga la clase */
+    
+    }
+    .headerStyle{
+        color: #faebeb;
+    }
+    
+    .charac{
+        margin-top: 40px; /* el espacio de arriba */
+        margin-bottom: 60px; /* abajo */
+        display: flex;
+      text-align: center;
+      justify-content: center;
+    }
+    .imagen{
+        height: 300px;
+        width: 300px;
+        text-align: center;
+    }
+    h1{
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+      padding-top: 40px;
+      font-size:60px;
+      
+    }
+
+    .contenedor{
+        margin-left: 60px;
+       margin-right: 60px;
+      
+    }
+
+    .carta{
+        height: 500px;
+        width: 400px;
+        display: flex;
+
+    }
